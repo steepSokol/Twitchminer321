@@ -1,0 +1,15 @@
+11/04/21 20:17:25 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Start session: '8087533b-41da-4822-a4a7-245bdfc4fc71'
+11/04/21 20:17:25 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Loading data for 11 streamers. Please wait...
+11/04/21 20:17:26 - DEBUG - urllib3.connectionpool - [_new_conn]: Starting new HTTPS connection (1): api.twitch.tv:443
+11/04/21 20:17:26 - DEBUG - urllib3.connectionpool - [_make_request]: https://api.twitch.tv:443 "GET /helix/users?login=streamer-username01 HTTP/1.1" 200 11
+11/04/21 20:17:26 - DEBUG - TwitchChannelPointsMiner.classes.Twitch - [__do_helix_request]: Query: /users?login=streamer-username01, Status code: 200, Content: {'data': []}
+11/04/21 20:17:26 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Streamer streamer-username01 does not exist
+11/04/21 20:17:27 - DEBUG - urllib3.connectionpool - [_make_request]: https://api.twitch.tv:443 "GET /helix/users?login=streamer-username02 HTTP/1.1" 200 11
+11/04/21 20:17:27 - DEBUG - TwitchChannelPointsMiner.classes.Twitch - [__do_helix_request]: Query: /users?login=streamer-username02, Status code: 200, Content: {'data': []}
+11/04/21 20:17:27 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Streamer streamer-username02 does not exist
+11/04/21 20:17:28 - DEBUG - urllib3.connectionpool - [_make_request]: https://api.twitch.tv:443 "GET /helix/users?login=streamer-username03 HTTP/1.1" 200 11
+11/04/21 20:17:28 - DEBUG - TwitchChannelPointsMiner.classes.Twitch - [__do_helix_request]: Query: /users?login=streamer-username03, Status code: 200, Content: {'data': []}
+11/04/21 20:17:28 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Streamer streamer-username03 does not exist
+11/04/21 20:17:28 - DEBUG - urllib3.connectionpool - [_make_request]: https://api.twitch.tv:443 "GET /helix/users?login=streamer-username04 HTTP/1.1" 200 11
+11/04/21 20:17:28 - DEBUG - TwitchChannelPointsMiner.classes.Twitch - [__do_helix_request]: Query: /users?login=streamer-username04, Status code: 200, Content: {'data': []}
+11/04/21 20:17:28 - INFO - TwitchChannelPointsMiner.TwitchChannelPointsMiner - [run]: Streamer streamer-username04 does not exist
